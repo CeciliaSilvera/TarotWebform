@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TarotWebform.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Tarot</title>
+    <link href="CSS/Style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="logowrapper">
+        <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="150" />
+        <h1>
+            Welcome to </br><span>The Tarot Website</span>
+        </h1>
+    </div>
+
+    <footer>
+        <a href="contact.aspx">Kontakt</a>
+    </footer>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+
+    
+    </form>
+</body>
+</html>

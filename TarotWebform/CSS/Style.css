@@ -1,0 +1,140 @@
+﻿/******General settings*****/
+body{
+	margin: 0;
+	padding: 0;
+    background-color:lightgrey;
+    width: auto;
+    max-width: 2000px;
+}
+/****End*****/
+
+/*****This section controls the top Element. observe there is an unused 
+spantag in the html (h1), please change this comment if you decide to use it******/
+#logowrapper{
+	padding-top: 1em;
+    background-color: white;
+	border-bottom: 3px solid;
+	border-top: 20px solid;
+    border-top-color: darkgrey;
+	height: 170px;
+}
+#logowrapper img{
+	position: absolute;
+	left: 65px;
+}
+#logowrapper h1{
+	position: absolute;
+	left: 310px;
+	top: 90px;
+	text-align: left;
+}
+/*********End of top Element*******/
+
+/*******this section controls the navigation******/
+
+#navwrapper { /***this wrapper just makes it look like navbar is streched across the screen***/
+    height:52px;
+    background-color: darkgray;	
+    margin-top:0;
+}
+#nav a{
+	position: relative;
+	left: 200px;
+	display: block;
+	width:7.1em;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding: 1em;
+    -webkit-box-shadow: inset -1px 1px rgba(15,10,15,1);
+	-moz-box-shadow: inset -1px 1px rgba(15,10,15,1);
+	box-shadow: inset -1px 1px rgba(15,10,15,1);
+	}
+ul{
+	list-style-type: none; /***removes default link decoration****/
+	padding: 0;
+	margin: 0;
+}	
+#nav li{
+	float: left;
+}
+a#active{	
+	color: whitesmoke;
+}
+
+
+/*******This is the main content, 
+including a content wrapper and left/right-div*******/
+
+#contentwrapper{
+    clear:left;
+	padding: 1em;
+	margin: 1em;
+}
+
+	#leftdiv{
+		display: block;
+		float: left;
+		width: auto;
+        height: 500px;
+		padding: 0.7em;
+		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		margin: inherit;
+		background-color: white;
+	}
+#rightdiv{
+	display: block;
+	float: left;
+	width: auto;
+    max-width:inherit;
+	padding: 0.7em;
+	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	margin: inherit;
+	background-color: white;
+    height:500px;
+	overflow: hidden;
+    
+
+	}
+.text-holder{
+    display: block;
+	float: left;
+	width: auto;
+    margin:10%;
+    max-width:inherit;
+	padding: 0.7em;
+	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	margin: inherit;
+	background-color: white;
+    height:auto;
+	overflow: hidden;
+    
+    
+
+	}
+}
+#cardholder img{
+    position:center;
+}
+/****Bottom content****/
+footer{
+	clear: left;
+	padding: 0.5em;
+	text-align: center;
+	font-style: italic;
+    position: absolute;
+    bottom:30px;
+    left: 800px;
+}
+
+
+
+
+
+}
