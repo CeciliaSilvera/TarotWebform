@@ -87,7 +87,7 @@ including a content wrapper and left/right-div*******/
 #rightdiv{
 	display: block;
 	float: left;
-	width: auto;
+	width: 1000px;
     max-width:inherit;
 	padding: 0.7em;
 	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
@@ -113,9 +113,7 @@ including a content wrapper and left/right-div*******/
 	margin: inherit;
 	background-color: white;
     height:auto;
-	overflow: hidden;
-    
-    
+	overflow: hidden;  
 
 	}
 }
