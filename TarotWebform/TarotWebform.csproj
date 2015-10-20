@@ -68,7 +68,16 @@
   <ItemGroup>
     <Content Include="CSS\Style.css" />
     <Content Include="HomeEmpress.jpg" />
+    <Content Include="imgcards\illuminati-aceofpentacles.jpg" />
+    <Content Include="imgcards\illuminati-death.jpg" />
+    <Content Include="imgcards\illuminati-fiveofwands.jpg" />
+    <Content Include="imgcards\illuminati-nineofpentacles.jpg" />
+    <Content Include="imgcards\illuminati-princeofswords.jpg" />
+    <Content Include="imgcards\illuminati-sixofcups.jpg" />
+    <Content Include="imgcards\illuminati-sixofswords.jpg" />
     <Content Include="imgcards\illuminati-thefool.jpg" />
+    <Content Include="imgcards\illuminati-theworld.jpg" />
+    <Content Include="imgcards\tarot-illuminati-kit-edition-english-only.jpg" />
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
     <Content Include="history.aspx" />
