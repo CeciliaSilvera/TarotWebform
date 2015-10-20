@@ -79,6 +79,15 @@
     <Content Include="imgcards\illuminati-theworld.jpg" />
     <Content Include="imgcards\tarot-illuminati-kit-edition-english-only.jpg" />
     <Content Include="packages.config" />
+    <Content Include="resources\card meaning\ace of pentacles.txt" />
+    <Content Include="resources\card meaning\death.txt" />
+    <Content Include="resources\card meaning\five of wands.txt" />
+    <Content Include="resources\card meaning\nine of pentacles.txt" />
+    <Content Include="resources\card meaning\prince of swords.txt" />
+    <Content Include="resources\card meaning\six of cups.txt" />
+    <Content Include="resources\card meaning\six of swords.txt" />
+    <Content Include="resources\card meaning\the fool.txt" />
+    <Content Include="resources\card meaning\the world.txt" />
     <Content Include="Site1.Master" />
     <Content Include="history.aspx" />
     <Content Include="cards.aspx" />
@@ -99,7 +108,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="game.aspx.cs">
       <DependentUpon>game.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
