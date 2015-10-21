@@ -11,7 +11,7 @@
                 <a href="history.aspx">learn more</a>
             </li>
             <li>
-                <a href="cards.aspx">The Cards</a>
+                <a id="active" href="cards.aspx">The Cards</a>
             </li>
             <li>
                 <a href="game.aspx">Play The Game</a>
