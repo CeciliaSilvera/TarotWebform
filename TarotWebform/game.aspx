@@ -23,7 +23,8 @@
 
         <div id="leftdiv">
 
-            <img src="x" alt="x"/>
+            <img src=" 41.jpg" alt=" card" length 250 width 300  />
+/>  
 
         </div>
 
@@ -42,18 +43,29 @@
                 Skriv in din fråga här:
 
             <p>
-                <textarea id=" textarea"></textarea>
-            <p>
-                <select id="Select1">
+                <asp:TextBox ID="txtFråga" runat="server" TextMode="MultiLine"></asp:TextBox>
+                    
+
+
+
+                <asp:DropDownList ID="ddlKort" runat="server">
+                <asp:ListItem Enabled="true" Selected="True">Välj din kort</asp:ListItem>
+                    <asp:ListItem Enabled="true">Ett Kort</asp:ListItem>
+                    <asp:ListItem Enabled="true" >Två Kort</asp:ListItem>
+                    <asp:ListItem Enabled="true">Tre Kort</asp:ListItem>
+
+
+
+                </asp:DropDownList>
+                <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" />
+                <asp:Button ID="btnClear" runat="server" OnClick="btnClear_Click" Text="Clear" />
+                <%--<select id="Select1">
                     <option> Välj din kort  </option>
                     <option> Ett kort</option>
                     <option> Tre kort </option>
-                    <option> Två val</option>
-                </select>
-            <p>
-                <input type="button" value=" submit" />
-                <input type="button" value=" back" />
-            <p>
+                    
+                </select>--%>
+                
             </div>
 
         </div>
