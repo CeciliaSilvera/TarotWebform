@@ -11,23 +11,32 @@ using System.Net;
 
 namespace TarotWebform
 {
-    public partial class WebForm3 : System.Web.UI.Page
+    public partial class contact : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+           
+        }
 
+        public void test()
+        {
+            
             try
             {
+                
                 //Create the msg object to be sent
                 MailMessage msg = new MailMessage();
                 //Add your email address to the recipients
                 msg.To.Add("RecipientAddress@gmail.com");
                 //Configure the address we are sending the mail from
-                MailAddress address = new MailAddress("SenderAddress@gmail.com");
+                MailAddress address = new MailAddress(senderEmail.Text);
                 msg.From = address;
                 //Append their name in the beginning of the subject
+
                 msg.Subject = txtName.Text + " :  " + ddlSubject.Text;
                 msg.Body = txtMessage.Text;
+                
 
                 //Configure an SmtpClient to send the mail.
                 SmtpClient client = new SmtpClient("cecilia_silvera@hotmail.com", 587);
@@ -51,7 +60,12 @@ namespace TarotWebform
                 //If the message failed at some point, let the user know
                 lblResult.Text = "Your message failed to send, please try again.";
             }
+            
+        }
 
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

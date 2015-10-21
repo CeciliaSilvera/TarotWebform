@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm4.aspx.cs" Inherits="TarotWebform.WebForm4" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="TarotWebform.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
@@ -24,10 +24,11 @@
 <table>
     <!-- Name -->
     <tr>
-        <td align="center">
+        <td>
             Name:</td>
         <td>
-            <asp:TextBox ID="txtName" 
+            <asp:TextBox ID="senderEmail" runat="server"></asp:TextBox>
+            <asp:TextBox  ID="txtName" 
                             runat="server"
                             Columns="50"></asp:TextBox>
         </td>
@@ -35,7 +36,7 @@
  
     <!-- Subject -->
     <tr>
-        <td align="center">
+        <td>
             Subject:
         </td>
         <td>
@@ -49,7 +50,7 @@
  
     <!-- Message -->
     <tr>
-        <td align="center">
+        <td>
             Message:
         </td>
         <td>
@@ -62,7 +63,7 @@
     </tr>
  
     <!-- Submit -->
-    <tr align="center">
+    <tr>
         <td colspan="2">
             <asp:Button ID="btnSubmit" runat="server" Text="Submit" 
                 onclick="btnSubmit_Click" />
@@ -70,7 +71,7 @@
     </tr>
             
     <!-- Results -->
-    <tr align="center">
+    <tr>
         <td colspan="2">
             <asp:Label ID="lblResult" runat="server"></asp:Label>
         </td>
