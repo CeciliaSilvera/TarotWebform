@@ -43,12 +43,11 @@
                 Skriv in din fråga här:
 
             <p>
-                <asp:TextBox ID="txtFråga" runat="server" TextMode="MultiLine"></asp:TextBox>
-                    
 
+             <asp:TextBox ID="txtFråga" runat="server" TextMode="MultiLine"></asp:TextBox>
+                
 
-
-                <asp:DropDownList ID="ddlKort" runat="server">
+             <asp:DropDownList ID="ddlKort" runat="server">
                 <asp:ListItem Enabled="true" Selected="True">Välj din kort</asp:ListItem>
                     <asp:ListItem Enabled="true">Ett Kort</asp:ListItem>
                     <asp:ListItem Enabled="true" >Två Kort</asp:ListItem>
