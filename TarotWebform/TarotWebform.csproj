@@ -99,7 +99,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="game.aspx.cs">
       <DependentUpon>game.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
