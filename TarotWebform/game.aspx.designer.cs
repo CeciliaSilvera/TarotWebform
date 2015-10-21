@@ -13,6 +13,15 @@ namespace TarotWebform {
     public partial class game {
         
         /// <summary>
+        /// txtFråga control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFråga;
+        
+        /// <summary>
         /// ddlKort control.
         /// </summary>
         /// <remarks>

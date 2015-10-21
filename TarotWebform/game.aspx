@@ -43,7 +43,7 @@
                 Skriv in din fråga här:
 
             <p>
-                <%--<asp:TextBox ID="txtFråga" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
+                <asp:TextBox ID="txtFråga" runat="server" TextMode="MultiLine"></asp:TextBox>
                     
 
 
