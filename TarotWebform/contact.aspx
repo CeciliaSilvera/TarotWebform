@@ -18,7 +18,7 @@
             </li>
         </ul>
     </div>
-  <div class="text-holder">
+  
 <h2>Contact Us</h2>
 <br />
 <table>
@@ -86,7 +86,7 @@
         </td>
     </tr>
 </table>
-      </div>
+     
     
 
 </asp:Content>
