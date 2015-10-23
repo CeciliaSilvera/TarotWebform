@@ -1,8 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="TarotWebform.home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        #login {
+            height: 60px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
-       
+ 
      <div id="navwrapper">
         
          <ul id="nav">
@@ -20,6 +25,7 @@
             </li>
          </ul>
      </div>
+
 
      <div id="contentwrapper">
 
