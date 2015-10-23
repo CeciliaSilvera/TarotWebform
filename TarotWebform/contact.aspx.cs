@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
 using System.Net.Mail;
-using System.Net;
 
 
 namespace TarotWebform
@@ -28,44 +21,51 @@ namespace TarotWebform
                 //Create the msg object to be sent
                 MailMessage msg = new MailMessage();
                 //Add your email address to the recipients
-                msg.To.Add("RecipientAddress@gmail.com");
+                msg.To.Add("tarotwebb@gmail.com");
                 //Configure the address we are sending the mail from
-                MailAddress address = new MailAddress(senderEmail.Text);
+                MailAddress address = new MailAddress("tarotwebb@gmail.com");
                 msg.From = address;
                 //Append their name in the beginning of the subject
 
-                msg.Subject = txtName.Text + " :  " + ddlSubject.Text;
-                msg.Body = txtMessage.Text;
+                msg.Subject ="Subject :" + txtSubject.Text;
+                msg.Body = "<b>Sender name: </b>" + txtName.Text + "<b><br/>Email: </b>" 
+                    + txtEmail.Text + "<br/>" + "<b>Message: </b>" + txtMessage.Text;
+                msg.IsBodyHtml = true;
                 
 
                 //Configure an SmtpClient to send the mail.
-                SmtpClient client = new SmtpClient("cecilia_silvera@hotmail.com", 587);
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
                 client.EnableSsl = true; //only enable this if your provider requires it
                                          //Setup credentials to login to our sender email address ("UserName", "Password")
-                NetworkCredential credentials = new NetworkCredential("SenderAddress@gmail.com", "xxxx");
-                client.Credentials = credentials;
+                client.Credentials =
+                       new System.Net.NetworkCredential("tarotwebb@gmail.com", "contacttarotwebb");
 
                 //Send the msg
                 client.Send(msg);
 
                 //Display some feedback to the user to let them know it was sent
-                lblResult.Text = "Your message was sent!";
+                lblResult.ForeColor = System.Drawing.Color.Blue;
+                lblResult.Text = "Thank you for contacting us,<br/>we'll get back to you as soon as we can!";
 
                 //Clear the form
-                txtName.Text = "";
-                txtMessage.Text = "";
+                txtName.Enabled = false;
+                txtEmail.Enabled = false;
+                txtMessage.Enabled = false;
+                txtSubject.Enabled = false;
+                btnSubmit.Enabled = false;
             }
             catch
             {
                 //If the message failed at some point, let the user know
-                lblResult.Text = "Your message failed to send, please try again.";
+                lblResult.ForeColor = System.Drawing.Color.Red;
+                lblResult.Text = "Your message failed to send, please try again later.";
             }
             
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            
+            test();
         }
     }
 }

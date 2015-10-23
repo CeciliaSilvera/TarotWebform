@@ -13,15 +13,6 @@ namespace TarotWebform {
     public partial class contact {
         
         /// <summary>
-        /// senderEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox senderEmail;
-        
-        /// <summary>
         /// txtName control.
         /// </summary>
         /// <remarks>
@@ -31,13 +22,22 @@ namespace TarotWebform {
         protected global::System.Web.UI.WebControls.TextBox txtName;
         
         /// <summary>
-        /// ddlSubject control.
+        /// txtEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlSubject;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        
+        /// <summary>
+        /// txtSubject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSubject;
         
         /// <summary>
         /// txtMessage control.

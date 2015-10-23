@@ -18,7 +18,7 @@
             </li>
         </ul>
     </div>
-  
+  <div class="text-holder">
 <h2>Contact Us</h2>
 <br />
 <table>
@@ -27,12 +27,23 @@
         <td>
             Name:</td>
         <td>
-            <asp:TextBox ID="senderEmail" runat="server"></asp:TextBox>
+            
             <asp:TextBox  ID="txtName" 
                             runat="server"
                             Columns="50"></asp:TextBox>
         </td>
     </tr>
+        <tr>
+        <td>
+            Email:</td>
+        <td>
+            
+            <asp:TextBox  ID="txtEmail" 
+                            runat="server"
+                            Columns="50"></asp:TextBox>
+        </td>
+    </tr>
+   
  
     <!-- Subject -->
     <tr>
@@ -40,11 +51,9 @@
             Subject:
         </td>
         <td>
-            <asp:DropDownList ID="ddlSubject" runat="server">
-                <asp:ListItem>Ask a question</asp:ListItem>
-                <asp:ListItem>feedback</asp:ListItem>
-                <asp:ListItem>Other</asp:ListItem>
-            </asp:DropDownList>
+            <asp:TextBox  ID="txtSubject" 
+                            runat="server"
+                            Columns="50"></asp:TextBox>
         </td>
     </tr>
  
@@ -62,7 +71,7 @@
         </td>
     </tr>
  
-    <!-- Submit -->
+    
     <tr>
         <td colspan="2">
             <asp:Button ID="btnSubmit" runat="server" Text="Submit" 
@@ -77,6 +86,7 @@
         </td>
     </tr>
 </table>
+      </div>
     
 
 </asp:Content>
