@@ -12,7 +12,8 @@ namespace TarotWebform
            
         }
 
-        public void test()
+        public void mail()
+
         {
             
             try
@@ -65,7 +66,7 @@ namespace TarotWebform
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            test();
+            mail();
         }
     }
 }

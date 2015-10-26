@@ -3,23 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
        
-     <div id="navwrapper">
-        
-         <ul id="nav">
-            <li>
-                <a id="active" href="home.aspx">Home</a>
-            </li>
-            <li>
-                <a href="history.aspx">learn more</a>
-            </li>
-            <li>
-                <a href="cards.aspx">The Cards</a>
-            </li>
-            <li>
-                <a href="game.aspx">Play The Game</a>
-            </li>
-         </ul>
-     </div>
+
 
      <div id="contentwrapper">
 
