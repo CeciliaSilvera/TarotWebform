@@ -13,5 +13,16 @@ namespace TarotWebform
         {
 
         }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            txtFråga.Text = string.Empty;
+
+        }
     }
 }

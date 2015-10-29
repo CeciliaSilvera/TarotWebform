@@ -70,6 +70,8 @@ including a content wrapper and left/right-div*******/
     clear:left;
 	padding: 1em;
 	margin: 1em;
+    height: 884px;
+    width: 964px;
 }
 
 	#leftdiv{
@@ -103,8 +105,8 @@ including a content wrapper and left/right-div*******/
 .text-holder{
     display: block;
 	float: left;
-	width: auto;
-    margin:10%;
+	width: 607px;
+
     max-width:inherit;
 	padding: 0.7em;
 	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
@@ -112,7 +114,7 @@ including a content wrapper and left/right-div*******/
 	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	margin: inherit;
 	background-color: white;
-    height:auto;
+    height:695px;
 	overflow: hidden;  
 
 	}
@@ -127,7 +129,7 @@ footer{
 	text-align: center;
 	font-style: italic;
     position: absolute;
-    bottom:30px;
+    bottom:5px;
     left: 800px;
 }
 

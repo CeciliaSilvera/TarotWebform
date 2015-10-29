@@ -17,9 +17,29 @@
             Welcome to <br/><span>The Tarot Website</span>
         </h1>
     </div>
+             <div id="navwrapper">
+        
+         <ul id="nav">
+            <li>
+                <a href="home.aspx">Home</a>
+            </li>
+            <li>
+                <a href="history.aspx">learn more</a>
+            </li>
+            <li>
+                <a href="cards.aspx">The Cards</a>
+            </li>
+            <li>
+                <a href="game.aspx">Play The Game</a>
+            </li>
+            <li>
+                <a href="contact.aspx">Contact</a>
+            </li>
+         </ul>
+     </div>
 
     <footer>
-        <a href="contact.aspx">Kontakt</a>
+        <a> &copy; <b>All rights reserved</b> 2015</a>
     </footer>
 
         <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server">
