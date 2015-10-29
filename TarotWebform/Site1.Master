@@ -38,15 +38,17 @@
          </ul>
      </div>
 
-    <footer>
-        <a> &copy; <b>All rights reserved</b> 2015</a>
-    </footer>
 
         <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server">
        
         </asp:ContentPlaceHolder>
 
     
+
+
     </form>
+        <footer>
+        <a> &copy; <b>All rights reserved</b> 2015</a>
+    </footer>
 </body>
 </html>
