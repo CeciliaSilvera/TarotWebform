@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
-  
+  <div id="contentwrapper">
 <h2>Contact Us</h2>
 <br />
 <table>
@@ -70,6 +70,7 @@
         </td>
     </tr>
 </table>
+      </div>
      
     
 
