@@ -10,7 +10,9 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <div id="wrapper">
+        <form id="form1" runat="server">
+       
     <div id="logowrapper">
         <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="150" />
         <h1>
@@ -46,9 +48,11 @@
     
 
 
-    </form>
+     
         <footer>
         <a> &copy; <b>All rights reserved</b> 2015</a>
     </footer>
+            </form>
+    </div>
 </body>
 </html>
