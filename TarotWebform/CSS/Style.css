@@ -4,7 +4,7 @@ body{
 	padding: 0;
     background-color:lightgrey;
     width: auto;
-    max-width: 2000px;
+
 }
 /****End*****/
 
@@ -67,11 +67,11 @@ a#active{
 including a content wrapper and left/right-div*******/
 
 #contentwrapper{
-    clear:left;
+    
 	padding: 1em;
 	margin: 1em;
-    height: 884px;
-    width: 964px;
+
+    width: auto;
 }
 
 	#leftdiv{
@@ -118,7 +118,7 @@ including a content wrapper and left/right-div*******/
 	overflow: hidden;  
 
 	}
-}
+
 #cardholder img{
     position:center;
 }
@@ -136,4 +136,4 @@ footer{
 
 
 
-}
+
