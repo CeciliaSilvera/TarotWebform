@@ -97,7 +97,7 @@ including a content wrapper and left/right-div*******/
 	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	margin: inherit;
 	background-color: white;
-    height:500px;
+    min-height:900px;
 	overflow: hidden;
     
 
