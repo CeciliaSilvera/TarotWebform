@@ -11,7 +11,7 @@
                 <img src="imgcards/illuminati-thefool.jpg" alt="the fool tarot card" width="300" height="500"/>
 
             </div>
-     
+
 
         <div class="text">
 
