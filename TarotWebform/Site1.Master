@@ -10,23 +10,49 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <div id="wrapper">
+        <form id="form1" runat="server">
+       
     <div id="logowrapper">
         <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="150" />
         <h1>
             Welcome to <br/><span>The Tarot Website</span>
         </h1>
     </div>
+             <div id="navwrapper">
+        
+         <ul id="nav">
+            <li>
+                <a href="home.aspx">Home</a>
+            </li>
+            <li>
+                <a href="history.aspx">learn more</a>
+            </li>
+            <li>
+                <a href="cards.aspx">The Cards</a>
+            </li>
+            <li>
+                <a href="game.aspx">Play The Game</a>
+            </li>
+            <li>
+                <a href="contact.aspx">Contact</a>
+            </li>
+         </ul>
+     </div>
 
-    <footer>
-        <a href="contact.aspx">Kontakt</a>
-    </footer>
 
         <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server">
        
         </asp:ContentPlaceHolder>
 
     
-    </form>
+
+
+     
+        <footer>
+        <a> &copy; <b>All rights reserved</b> 2015</a>
+    </footer>
+            </form>
+    </div>
 </body>
 </html>

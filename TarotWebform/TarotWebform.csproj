@@ -78,6 +78,7 @@
     <Content Include="imgcards\illuminati-thefool.jpg" />
     <Content Include="imgcards\illuminati-theworld.jpg" />
     <Content Include="imgcards\tarot-illuminati-kit-edition-english-only.jpg" />
+    <Content Include="login.aspx" />
     <Content Include="packages.config" />
     <Content Include="resources\card meaning\ace of pentacles.txt" />
     <Content Include="resources\card meaning\death.txt" />
@@ -124,6 +125,13 @@
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">

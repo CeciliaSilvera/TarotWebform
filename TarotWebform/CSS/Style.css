@@ -2,9 +2,15 @@
 body{
 	margin: 0;
 	padding: 0;
-    background-color:lightgrey;
+    background-color:white;
     width: auto;
-    max-width: 2000px;
+
+}
+#wrapper{
+    background-color:lightgrey;
+    margin:10px;
+    border:3px groove;
+    min-height:850px;
 }
 /****End*****/
 
@@ -54,12 +60,9 @@ ul{
 	list-style-type: none; /***removes default link decoration****/
 	padding: 0;
 	margin: 0;
-}	
-#nav li{
-	float: left;
 }
-a#active{	
-	color: whitesmoke;
+#nav li {
+    float: left;
 }
 
 
@@ -67,11 +70,11 @@ a#active{
 including a content wrapper and left/right-div*******/
 
 #contentwrapper{
-    clear:left;
-	padding: 1em;
+    
+	padding: 5em;
 	margin: 1em;
-    height: 884px;
-    width: 964px;
+
+    min-width: 1800px;
 }
 
 	#leftdiv{
@@ -89,8 +92,9 @@ including a content wrapper and left/right-div*******/
 #rightdiv{
 	display: block;
 	float: left;
-	width: 1000px;
-    max-width:inherit;
+	width: auto;
+
+    max-width:800px;
 	padding: 0.7em;
 	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
@@ -118,23 +122,81 @@ including a content wrapper and left/right-div*******/
 	overflow: hidden;  
 
 	}
-}
+/****cardstyles***/
+
 #cardholder img{
     position:center;
+}
+.card{
+    float:left;
+    padding:1px;
+    border:2px groove;
+    width: 302px;
+
+}
+.text{
+    float:left;
+    max-width:1200px;
+    height: 700px;
+    position: relative;
+    left: 20px;
 }
 /****Bottom content****/
 footer{
 	clear: left;
 	padding: 0.5em;
-	text-align: center;
 	font-style: italic;
-    position: absolute;
-    bottom:5px;
+    position:relative;
     left: 800px;
+    
+}
+/**Media query site1.Master**/
+@media screen and (max-width: 760px){
+    #wrapper{
+        width:100%
+    }
+    #nav a{
+    position: relative;
+    left: 5px;
+    display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding: 1em;
+    -webkit-box-shadow: inset -1px 1px rgba(15,10,15,1);
+	-moz-box-shadow: inset -1px 1px rgba(15,10,15,1);
+	box-shadow: inset -1px 1px rgba(15,10,15,1);
+    }
+ 
+}
+@media screen and (max-width: 550px){
+     #wrapper{
+     width:100%;
+     margin: 0;
+     padding: 0;
+    }
+    #nav a{
+        width: 100%;
+        display: block;
+    }
+    #logowrapper img{
+        display: none;
+    }
+    #logowrapper h1{
+        position: absolute;
+        left: 3px;
+    }
+    #nav li{
+        float: none;
+
+    }
+
 }
 
 
 
 
 
-}
+
+
+
