@@ -60,12 +60,9 @@ ul{
 	list-style-type: none; /***removes default link decoration****/
 	padding: 0;
 	margin: 0;
-}	
-#nav li{
-	float: left;
 }
-a#active{	
-	color: whitesmoke;
+#nav li {
+    float: left;
 }
 
 
@@ -152,6 +149,48 @@ footer{
     position:relative;
     left: 800px;
     
+}
+/**Media query site1.Master**/
+@media screen and (max-width: 760px){
+    #wrapper{
+        width:100%
+    }
+    #nav a{
+    position: relative;
+    left: 5px;
+    display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding: 1em;
+    -webkit-box-shadow: inset -1px 1px rgba(15,10,15,1);
+	-moz-box-shadow: inset -1px 1px rgba(15,10,15,1);
+	box-shadow: inset -1px 1px rgba(15,10,15,1);
+    }
+ 
+}
+@media screen and (max-width: 550px){
+     #wrapper{
+     width:100%;
+     margin: 0;
+     padding: 0;
+    }
+    #nav a{
+        width: 100%;
+        display: block;
+    }
+    #logowrapper img{
+        display: none;
+    }
+    #logowrapper h1{
+        position: absolute;
+        left: 3px;
+    }
+    #nav li{
+        float: none;
+
+    }
+
 }
 
 
