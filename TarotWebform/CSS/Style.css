@@ -3,7 +3,7 @@ body{
 	margin: 0;
 	padding: 0;
     background-color:white;
-    width: auto;
+    font-family: 'Alegreya Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 #wrapper{
@@ -16,23 +16,28 @@ body{
 
 /*****This section controls the top Element. observe there is an unused 
 spantag in the html (h1), please change this comment if you decide to use it******/
+
 #logowrapper{
 	padding-top: 1em;
     background-color: white;
-	border-bottom: 3px solid;
+	border-bottom: 5px solid;
 	border-top: 20px solid;
     border-top-color: darkgrey;
-	height: 170px;
+	height: 200px;
 }
 #logowrapper img{
 	position: absolute;
-	left: 65px;
+	left: 130px;
 }
 #logowrapper h1{
 	position: absolute;
-	left: 310px;
+	left: 390px;
 	top: 90px;
 	text-align: left;
+    font-size:150%;
+}
+#logowrapper h1 span{
+    font-size:210%;
 }
 /*********End of top Element*******/
 
@@ -44,25 +49,35 @@ spantag in the html (h1), please change this comment if you decide to use it****
     margin-top:0;
 }
 #nav a{
+    font-family:'Raleway','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	position: relative;
 	left: 200px;
 	display: block;
-	width:7.1em;
+	width:140px;
+    font-size:larger;
+    font-weight:600;
 	text-decoration: none;
 	color: black;
 	text-align: center;
-	padding: 1em;
-    -webkit-box-shadow: inset -1px 1px rgba(15,10,15,1);
-	-moz-box-shadow: inset -1px 1px rgba(15,10,15,1);
-	box-shadow: inset -1px 1px rgba(15,10,15,1);
+	padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+
+    border-right:2px solid;
 	}
+
 ul{
 	list-style-type: none; /***removes default link decoration****/
 	padding: 0;
 	margin: 0;
+    overflow:hidden;
+    min-width:810px;
 }
+
 #nav li {
     float: left;
+
 }
 
 
@@ -73,7 +88,7 @@ including a content wrapper and left/right-div*******/
     
 	padding: 5em;
 	margin: 1em;
-
+    overflow:hidden;
     min-width: 1800px;
 }
 
@@ -93,9 +108,10 @@ including a content wrapper and left/right-div*******/
 	display: block;
 	float: left;
 	width: auto;
-
+    font-size:1.2em;
+    font-weight:400;
     max-width:800px;
-	padding: 0.7em;
+	padding: 1em;
 	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
@@ -151,44 +167,103 @@ footer{
     
 }
 /**Media query site1.Master**/
-@media screen and (max-width: 760px){
+
+@media screen and (max-width: 800px){
     #wrapper{
-        width:100%
+        width:100%;
+        margin:1px;
     }
+    #logowrapper h1{
+        min-width:400px;
+        overflow:hidden;
+        position:absolute;
+        left:250px;
+    }
+     #logowrapper img{
+       position:absolute;
+       left:15px;
+    }
+  
     #nav a{
-    position: relative;
-    left: 5px;
-    display: block;
-	text-decoration: none;
-	color: black;
-	text-align: center;
-	padding: 1em;
-    -webkit-box-shadow: inset -1px 1px rgba(15,10,15,1);
-	-moz-box-shadow: inset -1px 1px rgba(15,10,15,1);
-	box-shadow: inset -1px 1px rgba(15,10,15,1);
+        position:relative;
+        left: 0px;
+       
+        display: block;
+
+        padding-left:4px;
+        padding-right:4px;
+        padding-top:18px;
+        padding-bottom:18px;
+        font-size:smaller;
+        font-weight:600;
+
+
     }
  
+    #nav{
+        min-width:800px;
+    }
+    footer{
+        position:relative;
+        left:37%;
+        overflow:hidden;
+    }
 }
+
 @media screen and (max-width: 550px){
      #wrapper{
      width:100%;
      margin: 0;
      padding: 0;
     }
+     
+     #nav {
+         min-width:0;
+
+     }
     #nav a{
+        background-color: darkgray;
         width: 100%;
         display: block;
+        border-bottom:2px groove;
+        padding-top:5px;
+        padding-bottom:5px;
+        color:black;
     }
+    #logowrapper{
+	padding-top: 1em;
+    background-color: white;
+	border-bottom: 3px solid;
+	border-top: 15px solid;
+    border-top-color: darkgrey;
+	height: 100px;
+    font-size:small;
+    font-stretch:extra-expanded;
+    
+}
     #logowrapper img{
-        display: none;
+        width: 25%;
+        height: 10%;
+        position:absolute;
+        left:3%;
     }
+
     #logowrapper h1{
-        position: absolute;
-        left: 3px;
+        position: relative;
+        left: 33%;
+        top:16%;
+        font-size:90%;
+        
+
+        
     }
     #nav li{
         float: none;
 
+    }
+    footer{
+        position:relative;
+        left:37%;
     }
 
 }
