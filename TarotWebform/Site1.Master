@@ -6,6 +6,8 @@
 <head runat="server">
     <title>Tarot</title>
     <link href="CSS/Style.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -14,7 +16,7 @@
         <form id="form1" runat="server">
        
     <div id="logowrapper">
-        <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="150" />
+        <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="180" />
         <h1>
             Welcome to <br/><span>The Tarot Website</span>
         </h1>
