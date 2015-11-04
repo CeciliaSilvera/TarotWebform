@@ -140,22 +140,36 @@ including a content wrapper and left/right-div*******/
 	}
 /****cardstyles***/
 
-#cardholder img{
+.cardholder{
+    background-color:white;
+    width:1600px;
+    height:700px;
+    margin:15px;
+    padding:30px;
+   
+}
+
+.cardholder img{
     position:center;
+    
 }
 .card{
-    float:left;
+   float:left;
+   
     padding:1px;
     border:2px groove;
     width: 302px;
 
 }
 .text{
-    float:left;
+    float: right;
     max-width:1200px;
-    height: 700px;
-    position: relative;
-    left: 20px;
+    height: 500px;
+    position:relative;
+    left: -35px;
+    padding:15px;
+    
+    
 }
 /****Bottom content****/
 footer{
@@ -208,6 +222,39 @@ footer{
         left:37%;
         overflow:hidden;
     }
+    #contentwrapper{
+        margin:0;
+        padding:0;
+    }
+
+    /**cardpage*/
+    .cardholder{
+       height:1550px;
+       width:750px;
+       position:relative;
+       left:-10px;
+       top:-10px;     
+    }
+
+    .text{
+        margin:20px;
+        padding:0px;
+        position:relative;
+        top: -30px;
+        float:none;
+        width:85%;        
+    }
+
+    .card{
+        padding:0;
+        margin:0;
+        position:relative;
+        left:-20px;
+        float:none;
+        top:-20px;
+    }
+
+
 }
 
 @media screen and (max-width: 550px){
@@ -264,6 +311,34 @@ footer{
     footer{
         position:relative;
         left:37%;
+    }
+    /**cardspage*/
+        .cardholder{
+       height:2200px;
+       position:relative;
+       left:-20px;
+       top:75px;
+       max-width:500px;     
+    }
+
+    .text{
+        margin:0px;
+        padding:0px;
+        position:relative;
+        top: -30px; 
+        left:-10px;
+        width:375px; 
+        float:none;   
+    }
+     
+
+    .card{
+        padding:0;
+        margin:0;
+        position:relative;
+        left:-20px;
+        float:none;
+        top:-20px;
     }
 
 }
