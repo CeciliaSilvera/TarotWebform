@@ -11,10 +11,9 @@
         <td>
             Name:</td>
         <td>
+            <asp:TextBox ID="txtName2" Columns="50" runat="server" ></asp:TextBox>
+
             
-            <asp:TextBox  ID="txtName" 
-                            runat="server"
-                            Columns="50"></asp:TextBox>
         </td>
     </tr>
         <tr>
@@ -22,9 +21,8 @@
             Email:</td>
         <td>
             
-            <asp:TextBox  ID="txtEmail" 
-                            runat="server"
-                            Columns="50"></asp:TextBox>
+            <asp:TextBox ID="txtEmail2" Columns="50" runat="server" ></asp:TextBox>
+
         </td>
     </tr>
    
@@ -35,9 +33,9 @@
             Subject:
         </td>
         <td>
-            <asp:TextBox  ID="txtSubject" 
-                            runat="server"
-                            Columns="50"></asp:TextBox>
+            <asp:TextBox ID="txtSubject2" Columns="50" runat="server" 
+                ></asp:TextBox>
+
         </td>
     </tr>
  
@@ -47,19 +45,21 @@
             Message:
         </td>
         <td>
-            <asp:TextBox ID="txtMessage" 
-                            runat="server"
-                            Columns="40"
-                            Rows="6" 
-                            TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="txtMessage2" runat="server" Columns="50" 
+                Rows="6" TextMode="MultiLine"></asp:TextBox>
+
+
+
         </td>
     </tr>
  
     
     <tr>
         <td colspan="2">
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" 
-                onclick="btnSubmit_Click" />
+            <asp:Button ID="btnSubmit2" runat="server" Text="Submit" 
+                 OnClientClick="validate();" OnClick="btnSubmit2_Click"/>
+            
+        
         </td>
     </tr>
             

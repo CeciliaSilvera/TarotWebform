@@ -78,6 +78,7 @@
     <Content Include="imgcards\illuminati-thefool.jpg" />
     <Content Include="imgcards\illuminati-theworld.jpg" />
     <Content Include="imgcards\tarot-illuminati-kit-edition-english-only.jpg" />
+    <Content Include="validationcontact.js" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
     <Content Include="resources\card meaning\ace of pentacles.txt" />
