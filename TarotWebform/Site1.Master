@@ -8,6 +8,7 @@
     <link href="CSS/Style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'/>
+    <script type="text/javascript" src="validationcontact.js"></script>
     <script src="Script1.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -57,5 +58,6 @@
     </footer>
             </form>
     </div>
+ 
 </body>
 </html>

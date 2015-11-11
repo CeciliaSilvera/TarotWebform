@@ -13,49 +13,49 @@ namespace TarotWebform {
     public partial class contact {
         
         /// <summary>
-        /// txtName control.
+        /// txtName2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
+        protected global::System.Web.UI.WebControls.TextBox txtName2;
         
         /// <summary>
-        /// txtEmail control.
+        /// txtEmail2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail2;
         
         /// <summary>
-        /// txtSubject control.
+        /// txtSubject2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSubject;
+        protected global::System.Web.UI.WebControls.TextBox txtSubject2;
         
         /// <summary>
-        /// txtMessage control.
+        /// txtMessage2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMessage;
+        protected global::System.Web.UI.WebControls.TextBox txtMessage2;
         
         /// <summary>
-        /// btnSubmit control.
+        /// btnSubmit2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
+        protected global::System.Web.UI.WebControls.Button btnSubmit2;
         
         /// <summary>
         /// lblResult control.
