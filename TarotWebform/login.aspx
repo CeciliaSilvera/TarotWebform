@@ -15,7 +15,8 @@ value="WebForms" />
     <asp:Label ID="Label2" runat="server" Text="Password:"></asp:Label>
     <asp:TextBox ID="TextBoxPassword" runat="server"></asp:TextBox>
     <p>
-        <asp:Button ID="Button_Login" runat="server" OnClick="Button1_Click" Text="Login" Height="38px" style="margin-left: 84px" Width="90px" />
+        <%--<asp:Button ID="Button_Login" runat="server" OnClick="Button1_Click();" Text="Login" Height="38px" style="margin-left: 84px" Width="90px" />--%>
+        <input type="button" runat="server" onclick="Button1_Click();" />
     </p>
     <p>
     </p>

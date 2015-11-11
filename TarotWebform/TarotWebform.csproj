@@ -89,6 +89,7 @@
     <Content Include="resources\card meaning\six of swords.txt" />
     <Content Include="resources\card meaning\the fool.txt" />
     <Content Include="resources\card meaning\the world.txt" />
+    <Content Include="Script1.js" />
     <Content Include="Site1.Master" />
     <Content Include="history.aspx" />
     <Content Include="cards.aspx" />
