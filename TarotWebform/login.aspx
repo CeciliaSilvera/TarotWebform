@@ -19,11 +19,11 @@ value="WebForms" />
         <p><b>LOGIN</b></p>
            <p id="LOGIN"></p>
                 <p>
-                   Username: <input type="text" runat="server" id="TextBoxUsername" name="Username" size="12" /><br />
-                   Password: <input type="password" runat="server" id="TextBoxPassword" name="Password" size="12" maxlength="8" /><br />
+                   Username: <input type="text" runat="server" id="ContentPlaceholder1_TextBoxUsername2" name="Username" size="12" /><br />
+                   Password: <input type="password" runat="server" id="ContentPlaceholder1_TextBoxPassword2" name="Password" size="12" maxlength="8" /><br />
                 </p>
               <p>
-        <input type="button" runat="server" onclick="Button1_Click();" id="Button_login" value="Login"/>
+        <input type="button" runat="server" onclick="Button1_Click();" id="Button_login" onserverclick="Button1_Click" value="Login"/>
         </p>
       <p>
     </p>

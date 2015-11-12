@@ -13,22 +13,22 @@ namespace TarotWebform {
     public partial class login {
         
         /// <summary>
-        /// TextBoxUsername control.
+        /// ContentPlaceholder1_TextBoxUsername2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText TextBoxUsername;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ContentPlaceholder1_TextBoxUsername2;
         
         /// <summary>
-        /// TextBoxPassword control.
+        /// ContentPlaceholder1_TextBoxPassword2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword TextBoxPassword;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword ContentPlaceholder1_TextBoxPassword2;
         
         /// <summary>
         /// Button_login control.
