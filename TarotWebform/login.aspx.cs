@@ -17,17 +17,20 @@ namespace TarotWebform
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (TextBoxUsername.Text == "Hanna" && TextBoxPassword.Text == "1234")
+            string textboxvalue = TextBoxUsername.Value;
+            string textboxpvalue = TextBoxPassword.Value;
+
+            if (textboxvalue == "Hanna" && textboxpvalue == "1234")
 
             {
                 Response.Redirect("history.aspx");
             }
-            else if (TextBoxUsername.Text == "Cecilia" && TextBoxPassword.Text == "4321")
+            else if (textboxvalue == "Cecilia" && textboxpvalue == "4321")
 
             {
                 Response.Redirect("history.aspx");
             }
-            else if (TextBoxUsername.Text == "Fahima" && TextBoxPassword.Text == "1324")
+            else if (textboxvalue == "Fahima" && textboxpvalue == "1324")
 
             {
                 Response.Redirect("history.aspx");
