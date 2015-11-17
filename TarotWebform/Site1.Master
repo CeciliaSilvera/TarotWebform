@@ -10,9 +10,10 @@
     <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'/>
     <script src="jquery-2.1.4 (1).js"></script>
     <script type="text/javascript" src="validationcontact.js"></script>
-    <script src="Script1.js"></script>
+    <script src="Js/Script1.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <div id="wrapper">

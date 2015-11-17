@@ -92,7 +92,7 @@ including a content wrapper and left/right-div*******/
     min-width: 1800px;
 }
 
-	#leftdiv{
+	#leftdiv.cardholder2{
 		display: block;
 		float: left;
 		width: auto;
@@ -104,7 +104,7 @@ including a content wrapper and left/right-div*******/
 		margin: inherit;
 		background-color: white;
 	}
-    #rightdiv{
+    #rightdiv.text2{
 	display: block;
 	float: left;
 	width: auto;

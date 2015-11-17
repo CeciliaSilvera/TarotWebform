@@ -16,6 +16,14 @@ function Button1_Click() {
             alert("wrong!")
             return false;
         }
-
-    }
+    //Jquery For picture home page, picture shows only, click and text shows.
+        $(document).ready(function () {
+            $("#rightdiv").click(function () {
+                $("#leftdiv").hide();
+            });
+            $("#leftdiv").click(function () {
+                $("#rightdiv").show();
+            });
+        });
+}
 
