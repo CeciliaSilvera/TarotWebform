@@ -16,7 +16,9 @@ value="WebForms" />
     <asp:TextBox ID="TextBoxPassword" runat="server"></asp:TextBox>
     <--%>
         <%--<asp:Button ID="Button_Login" runat="server" OnClick="Button1_Click();" Text="Login" Height="38px" style="margin-left: 84px" Width="90px" />--%>
-        <p><b>LOGIN</b></p>
+        
+    <%--Login console, with input--%>
+    <p><b>LOGIN</b></p>
            <p id="LOGIN"></p>
                 <p>
                    Username: <input type="text"  id="TextBoxUsername2" name="Username" size="12" /><br />

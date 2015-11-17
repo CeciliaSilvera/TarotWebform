@@ -68,31 +68,31 @@
   <ItemGroup>
     <Content Include="CSS\Style.css" />
     <Content Include="HomeEmpress.jpg" />
-    <Content Include="imgcards\illuminati-aceofpentacles.jpg" />
-    <Content Include="imgcards\illuminati-death.jpg" />
-    <Content Include="imgcards\illuminati-fiveofwands.jpg" />
-    <Content Include="imgcards\illuminati-nineofpentacles.jpg" />
-    <Content Include="imgcards\illuminati-princeofswords.jpg" />
-    <Content Include="imgcards\illuminati-sixofcups.jpg" />
-    <Content Include="imgcards\illuminati-sixofswords.jpg" />
-    <Content Include="imgcards\illuminati-thefool.jpg" />
-    <Content Include="imgcards\illuminati-theworld.jpg" />
-    <Content Include="imgcards\tarot-illuminati-kit-edition-english-only.jpg" />
-    <Content Include="jquery-2.1.4 %281%29.js" />
-    <Content Include="Js\Script1.js" />
+    <Content Include="ImgCards\illuminati-aceofpentacles.jpg" />
+    <Content Include="ImgCards\illuminati-death.jpg" />
+    <Content Include="ImgCards\illuminati-fiveofwands.jpg" />
+    <Content Include="ImgCards\illuminati-nineofpentacles.jpg" />
+    <Content Include="ImgCards\illuminati-princeofswords.jpg" />
+    <Content Include="ImgCards\illuminati-sixofcups.jpg" />
+    <Content Include="ImgCards\illuminati-sixofswords.jpg" />
+    <Content Include="ImgCards\illuminati-thefool.jpg" />
+    <Content Include="ImgCards\illuminati-theworld.jpg" />
+    <Content Include="ImgCards\tarot-illuminati-kit-edition-english-only.jpg" />
+    <Content Include="Jquery\jquery-2.1.4 %281%29.js" />
+    <Content Include="Js\login.js" />
     <Content Include="validationcontact.js" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
-    <Content Include="resources\card meaning\ace of pentacles.txt" />
-    <Content Include="resources\card meaning\death.txt" />
-    <Content Include="resources\card meaning\five of wands.txt" />
-    <Content Include="resources\card meaning\nine of pentacles.txt" />
-    <Content Include="resources\card meaning\prince of swords.txt" />
-    <Content Include="resources\card meaning\six of cups.txt" />
-    <Content Include="resources\card meaning\six of swords.txt" />
-    <Content Include="resources\card meaning\the fool.txt" />
-    <Content Include="resources\card meaning\the world.txt" />
-    <Content Include="Script1.js" />
+    <Content Include="Resources\card meaning\ace of pentacles.txt" />
+    <Content Include="Resources\card meaning\death.txt" />
+    <Content Include="Resources\card meaning\five of wands.txt" />
+    <Content Include="Resources\card meaning\nine of pentacles.txt" />
+    <Content Include="Resources\card meaning\prince of swords.txt" />
+    <Content Include="Resources\card meaning\six of cups.txt" />
+    <Content Include="Resources\card meaning\six of swords.txt" />
+    <Content Include="Resources\card meaning\the fool.txt" />
+    <Content Include="Resources\card meaning\the world.txt" />
+    <Content Include="login.js" />
     <Content Include="Site1.Master" />
     <Content Include="history.aspx" />
     <Content Include="cards.aspx" />
@@ -169,6 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ImgCards\NewFolder1\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

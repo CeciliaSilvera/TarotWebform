@@ -92,7 +92,7 @@ including a content wrapper and left/right-div*******/
     min-width: 1800px;
 }
 
-	#leftdiv.cardholder2{
+	.leftdiv.cardholder2{
 		display: block;
 		float: left;
 		width: auto;
@@ -104,7 +104,7 @@ including a content wrapper and left/right-div*******/
 		margin: inherit;
 		background-color: white;
 	}
-    #rightdiv.text2{
+    .rightdiv.text2{
 	display: block;
 	float: left;
 	width: auto;
@@ -254,7 +254,33 @@ footer{
         top:-20px;
     }
     /*HomePage*/
-     
+    .leftdiv.cardholder2{
+		display: block;
+		float: left;
+		width: auto;
+        height: 500px;
+		padding: 0.7em;
+		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		margin: inherit;
+		background-color: white;
+	}
+     .rightdiv.text2{
+	display: block;
+	float: left;
+	width: auto;
+    font-size:1.2em;
+    font-weight:400;
+    max-width:800px;
+	padding: 1em;
+	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	margin: inherit;
+	background-color: white;
+    min-height:900px;
+	overflow: hidden;
 
 
 }
@@ -355,8 +381,8 @@ footer{
         
         }
         .text2{
-        margin:-10px;
-        padding:-10px;
+        margin:0px;
+        padding:-15px;
         position:relative;
         top: -30px; 
         left:-10px;

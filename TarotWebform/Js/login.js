@@ -1,6 +1,6 @@
 /// <reference path="C:\Users\Hanna\Source\Repos\TarotWebform3\TarotWebform\history.aspx" />
 // JavaScript source code
-/*Script allows people to enter by using Username and Password*/
+//JavaScript allows people to enter by using Username and Password, send message true/false
 function Button1_Click() {
     
     console.log("denna funktion anropas: Button1_Click()");
@@ -16,8 +16,11 @@ function Button1_Click() {
     }
     return false;
 }
-//if (attempt == 0) {
-//    document.getElementById("TextBoxUsername").disabled = true;
-//    document.getElementById("TextBoxPassword").disabled = true;
-//    document.getElementById("Button_login").disabled = true;
-//}
+//Jquery fade on h2 and p
+$(document).ready(function(){
+    $("h2").click(function () {
+        $("p").fadeTo("slow", 0.15);        
+
+    });
+
+});
