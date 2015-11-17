@@ -38,5 +38,9 @@ $(document).ready(function(){
     $("b").mouseover(function () {
         $("b").css("color", "white")
     });
+    $("#cardholder2").mouseover(function () {
+        $("#cardholder2").hide();
+
+    });
 
 });
