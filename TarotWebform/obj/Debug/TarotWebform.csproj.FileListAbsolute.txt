@@ -118,3 +118,6 @@ C:\Users\Hanna\Source\Repos\TarotWebform3\TarotWebform\bin\Microsoft.CodeDom.Pro
 C:\Users\Hanna\Source\Repos\TarotWebform3\TarotWebform\obj\Debug\TarotWebform.csprojResolveAssemblyReference.cache
 C:\Users\Hanna\Source\Repos\TarotWebform3\TarotWebform\obj\Debug\TarotWebform.dll
 C:\Users\Hanna\Source\Repos\TarotWebform3\TarotWebform\obj\Debug\TarotWebform.pdb
+C:\Users\elev\Source\Repos\TarotWebform2\TarotWebform\obj\Debug\TarotWebform.csprojResolveAssemblyReference.cache
+C:\Users\elev\Source\Repos\TarotWebform2\TarotWebform\obj\Debug\TarotWebform.dll
+C:\Users\elev\Source\Repos\TarotWebform2\TarotWebform\obj\Debug\TarotWebform.pdb
