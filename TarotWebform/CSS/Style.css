@@ -171,6 +171,13 @@ including a content wrapper and left/right-div*******/
     
     
 }
+/**Login content**/
+#login{
+    margin:15px;
+    padding:20px;
+    border:double;
+    position:relative;
+}
 /****Bottom content****/
 footer{
 	clear: left;
@@ -254,7 +261,7 @@ footer{
         top:-20px;
     }
     /*HomePage*/
-    .leftdiv.cardholder2{
+    #leftdiv.cardholder2{
 		display: block;
 		float: left;
 		width: auto;
@@ -266,7 +273,7 @@ footer{
 		margin: inherit;
 		background-color: white;
 	}
-     .rightdiv.text2{
+     #rightdiv.text2{
 	display: block;
 	float: left;
 	width: auto;

@@ -16,11 +16,27 @@ function Button1_Click() {
     }
     return false;
 }
-//Jquery fade on h2 and p
+//Jquery fade and mouseover on h2 and p
 $(document).ready(function(){
     $("h2").click(function () {
-        $("p").fadeTo("slow", 0.15);        
+        $("p").fadeTo("slow", 0.15);
+        $("h2").dblclick(function () {
+            $("P").hide();
+        });
+    });
 
+    $("h2").mouseover(function () {
+        $("h2").css("background-color", "white");
+        $("p").css("background-color", "white");
+    });
+
+    $("h2").mouseout(function () {
+        $("h2").css("background-color", "lightgrey");
+        $("p").css("background-color", "lightgrey");
+    });
+    
+    $("b").mouseover(function () {
+        $("b").css("color", "white")
     });
 
 });

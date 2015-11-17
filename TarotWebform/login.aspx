@@ -18,6 +18,7 @@ value="WebForms" />
         <%--<asp:Button ID="Button_Login" runat="server" OnClick="Button1_Click();" Text="Login" Height="38px" style="margin-left: 84px" Width="90px" />--%>
         
     <%--Login console, with input--%>
+    <div id="login">
     <p><b>LOGIN</b></p>
            <p id="LOGIN"></p>
                 <p>
@@ -29,4 +30,5 @@ value="WebForms" />
         </p>
       <p>
     </p>
+        </div>
 </asp:Content>
