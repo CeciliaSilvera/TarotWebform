@@ -15,28 +15,28 @@ namespace TarotWebform
         
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            string textboxvalue = TextBoxUsername.Value;
-            string textboxpvalue = TextBoxPassword.Value;
+        //protected void Button1_Click(object sender, EventArgs e)
+        //{
+        //    string textboxvalue = TextBoxUsername.Value;
+        //    string textboxpvalue = TextBoxPassword.Value;
 
-            if (textboxvalue == "Hanna" && textboxpvalue == "1234")
+        //    if (textboxvalue == "Hanna" && textboxpvalue == "1234")
 
-            {
-                Response.Redirect("history.aspx");
-            }
-            else if (textboxvalue == "Cecilia" && textboxpvalue == "4321")
+        //    {
+        //        Response.Redirect("history.aspx");
+        //    }
+        //    else if (textboxvalue == "Cecilia" && textboxpvalue == "4321")
 
-            {
-                Response.Redirect("history.aspx");
-            }
-            else if (textboxvalue == "Fahima" && textboxpvalue == "1324")
+        //    {
+        //        Response.Redirect("history.aspx");
+        //    }
+        //    else if (textboxvalue == "Fahima" && textboxpvalue == "1324")
 
-            {
-                Response.Redirect("history.aspx");
-            }
+        //    {
+        //        Response.Redirect("history.aspx");
+        //    }
 
-        }
+        //}
 
 
     }

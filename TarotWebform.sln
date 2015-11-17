@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarotWebform", "TarotWebform\TarotWebform.csproj", "{21D469ED-F8DE-4DBD-9EB7-576CE52AF253}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B240FFFF-DB58-4710-9759-5A6B5ED07873}"
-	ProjectSection(SolutionItems) = preProject
-		Script1.js = Script1.js
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
