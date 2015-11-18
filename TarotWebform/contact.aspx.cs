@@ -6,6 +6,8 @@ namespace TarotWebform
 {
     public partial class contact : System.Web.UI.Page
     {
+ 
+
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -15,10 +17,9 @@ namespace TarotWebform
         public void mail()
 
         {
-
+            
             try
-            {
-
+            {               
                 //Create the msg object to be sent
                 MailMessage msg = new MailMessage();
                 //Add your email address to the recipients
@@ -27,11 +28,13 @@ namespace TarotWebform
                 MailAddress address = new MailAddress("tarotwebb@gmail.com");
                 msg.From = address;
                 //Append their name in the beginning of the subject
+                
+                msg.Subject = "Subject :" + txtSubject.Value;
+                msg.Body = "<b>Sender name: </b>" + txtName.Value + "<b><br/>Email: </b>"
+                    + txtEmail.Value + "<br/>" + "<b>Message: </b>" + txtMessage.Value;
 
-                msg.Subject = "Subject :" + txtSubject2.Text;
-                msg.Body = "<b>Sender name: </b>" + txtName2.Text + "<b><br/>Email: </b>"
-                    + txtEmail2.Text + "<br/>" + "<b>Message: </b>" + txtMessage2.Text;
                 msg.IsBodyHtml = true;
+               
 
 
                 //Configure an SmtpClient to send the mail.
@@ -49,10 +52,10 @@ namespace TarotWebform
                 lblResult.Text = "Thank you for contacting us,<br/>we'll get back to you as soon as we can!";
 
                 //clear the form
-                txtName2.Enabled = false;
-                txtSubject2.Enabled = false;
-                txtEmail2.Enabled = false;
-                txtMessage2.Enabled = false;
+                txtName.Value = "";
+                txtEmail.Value = "";
+                txtSubject.Value = "";
+                txtMessage.Value = "";
             }
             catch
             {
@@ -61,10 +64,8 @@ namespace TarotWebform
                 lblResult.Text = "Your message failed to send, please try again later.";
             }
         }
-            
-          
 
-        protected void btnSubmit2_Click(object sender, EventArgs e)
+        protected void btnSubmit(object sender, EventArgs e)
         {
             mail();
         }

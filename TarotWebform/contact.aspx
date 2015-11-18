@@ -3,73 +3,72 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
   <div id="contentwrapper">
-<h2>Contact Us</h2>
-<br />
-<table>
+
+      
+
+    <h2>Contact Us</h2>
+      <table id="contactus">
     <!-- Name -->
-    <tr>
-        <td>
-            Name:</td>
-        <td>
-            <asp:TextBox ID="txtName2" Columns="50" runat="server" ></asp:TextBox>
-
-            
-        </td>
-    </tr>
-        <tr>
-        <td>
-            Email:</td>
-        <td>
-            
-            <asp:TextBox ID="txtEmail2" Columns="50" runat="server" ></asp:TextBox>
-
-        </td>
-    </tr>
-   
- 
-    <!-- Subject -->
-    <tr>
-        <td>
-            Subject:
-        </td>
-        <td>
-            <asp:TextBox ID="txtSubject2" Columns="50" runat="server" 
-                ></asp:TextBox>
-
-        </td>
-    </tr>
- 
-    <!-- Message -->
-    <tr>
-        <td>
-            Message:
-        </td>
-        <td>
-            <asp:TextBox ID="txtMessage2" runat="server" Columns="50" 
-                Rows="6" TextMode="MultiLine"></asp:TextBox>
-
-
-
-        </td>
-    </tr>
- 
-    
-    <tr>
-        <td colspan="2">
-            <asp:Button ID="btnSubmit2" runat="server" Text="Submit" 
-                 OnClientClick="validate();" OnClick="btnSubmit2_Click"/>
-            
-        
-        </td>
-    </tr>
-            
+      
+          <tr>
+              <td>
+                  <label for="txtName">Name:</label>
+              </td>
+              <td>
+                  <input type="text" runat="server" id="txtName" size="35" name="txtName" />
+                  
+              </td>
+          </tr>
+         
+          
+          <!-- Email -->
+          <tr>
+              <td>
+                  <label for="txtEmail">Email:</label>
+            </td>
+              <td>
+                  <input type="text" runat="server" id="txtEmail" size="35" value="" name="txtEmail" />
+         
+              </td>
+          </tr>
+          <!--Subject -->
+          <tr>
+              <td>
+                  <label for="txtSubject">Subject</label>
+                </td>
+              <td>
+                  <input type="text" runat="server" id="txtSubject" size="35" value="" 
+                      name="txtSubject" />
+              </td>
+          </tr>
+          <!-- Message -->
+          <tr>
+              <td>
+                  <label for="txtMessage">Message:</label>
+            </td>
+              <td>
+                  <input type="text" runat="server" id="txtMessage" 
+                          aria-multiline="true" size="35" name="txtMessage" />
+              </td>
+          </tr>
+           <!--Submit -->
+          <tr>
+              <td>
+                  <input type="button" runat="server" onclick="Validate();" onserverclick="btnSubmit" 
+                      value="Submit"  />
+               </td>
+          </tr>
     <!-- Results -->
-    <tr>
-        <td colspan="2">
-            <asp:Label ID="lblResult" runat="server"></asp:Label>
-        </td>
-    </tr>
-</table>
+   
+            <tr>
+                <td>
+                    <asp:Label ID="lblResult" runat="server"></asp:Label>
+                </td>
+            </tr>
+
+     
+          </table>
+
       </div>
      
     

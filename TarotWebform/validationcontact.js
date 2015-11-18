@@ -1,31 +1,40 @@
-﻿
-function validate() {
-    var txtName2 = document.getElementById("txtName2").value;
-    var txtEmail2 = document.getElementById("txtEmail2").value;
-    var txtSubject2 = document.getElementById("txtSubject2").value;
-    var txtMessage2 = document.getElementById("txtMessage2").value;
+﻿  function Validate() {
+      
+      var txtN = document.getElementsByName("txtName");
+      var txtE = document.getElementsByName("txtEmail");
+      var txtS = document.getElementsByName("txtSubject");
+      var txtM = document.getElementsByName("txtMessage");
 
-    if (txtName2 == "") {
-        throw("Please enter your name");
-        return false;
-    }
-    if (txtSubject2 == "") {
-        throw("Please select a subject");
+      alert(txtN.elements[0].value);
+      if (txtN.value === "") {
+            alert("Please enter your name");
+            return false;
         }
-    if (txtMessage2 == "") {
-        alert("You are sending an empty message");
-        return false;
-    }
-    if (txtEmail2 == "") {
-        alert("Please enter a valid Email adress");
-        return false;
-    }
-    var emailPat = /^(\".*\"|[A-Za-z]\w*)@(\[\d{1,3}(\.\d{1,3}){3}]|[A-Za-z]\w*(\.[A-Za-z]\w*)+)$/
-    var EmailmatchArray = Email.match(emailPat);
-    if (EmailmatchArray == null) {
-        alert("Your email address seems incorrect. Please try again.");
-        return false;
-    }
-    
+        else {
+            return true;
+        }
+ 
+      if (txtS.value == "" || txtS.value == null) {
+            alert("Please select a subject");
+            return false;
+        }
+        else {
+            return true;
+        }
+      if (txtM.value == "" || txtM.value == null) {
+            alert("You are sending an empty message");
+            return false;
+        }
+        else {
+            return true;
+        }
+      if (txtE.value == "" || txtE.value == null) {
+            alert("Please enter a valid Email adress");
+            return false;
+        }
+        else {
+            return true;
+        }
 
-}
+       
+    }

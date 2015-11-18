@@ -253,6 +253,9 @@ footer{
         float:none;
         top:-20px;
     }
+    /*HomePage*/
+    
+
 
 
 }
@@ -340,6 +343,31 @@ footer{
         float:none;
         top:-20px;
     }
+
+    /*HomePage*/
+        #leftdiv img {
+            width:430px;
+            height:400px;
+            position:relative;
+            margin:80px;
+            padding:1px;
+            overflow:auto;
+
+            
+        
+        }
+        #rightdiv p{
+            width:100%;
+            margin:0;
+            padding:0;
+            position:relative ;
+            float:none;
+        
+    }
+        #rightdiv p{
+            
+        }
+     
 
 }
 

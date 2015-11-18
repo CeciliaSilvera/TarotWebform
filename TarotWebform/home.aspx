@@ -15,7 +15,7 @@
 
         <div id="leftdiv">
 
-            <img src="HomeEmpress.jpg" alt="the empress tarot card" width="530" height="500">
+            <img src="HomeEmpress.jpg" alt="the empress tarot card" width="530" height="500"/>
 
         </div>
     <div id="rightdiv">
