@@ -8,16 +8,17 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
        
-        
-
-
+    
      <div id="contentwrapper">
-
+         
+         <div class="cardholder2">
         <div id="leftdiv">
 
             <img src="HomeEmpress.jpg" alt="the empress tarot card" width="530" height="500"/>
 
         </div>
+         </div>
+        <div class="text2">
     <div id="rightdiv">
 
             <h2>Lorem Ipsum</h2>
@@ -46,6 +47,8 @@
 
 
     </div>
+        </div>
+  
        
     
 </asp:Content>

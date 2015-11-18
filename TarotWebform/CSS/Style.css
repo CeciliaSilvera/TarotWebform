@@ -22,7 +22,7 @@ spantag in the html (h1), please change this comment if you decide to use it****
     background-color: white;
 	border-bottom: 5px solid;
 	border-top: 20px solid;
-    border-top-color: darkgrey;
+    border-top-color: darkgray;
 	height: 200px;
 }
 #logowrapper img{
@@ -92,7 +92,7 @@ including a content wrapper and left/right-div*******/
     min-width: 1800px;
 }
 
-	#leftdiv{
+	.leftdiv.cardholder2{
 		display: block;
 		float: left;
 		width: auto;
@@ -104,7 +104,7 @@ including a content wrapper and left/right-div*******/
 		margin: inherit;
 		background-color: white;
 	}
-#rightdiv{
+    .rightdiv.text2{
 	display: block;
 	float: left;
 	width: auto;
@@ -170,6 +170,13 @@ including a content wrapper and left/right-div*******/
     padding:15px;
     
     
+}
+/**Login content**/
+#login{
+    margin:15px;
+    padding:20px;
+    border:double;
+    position:relative;
 }
 /****Bottom content****/
 footer{
@@ -254,7 +261,34 @@ footer{
         top:-20px;
     }
     /*HomePage*/
-    
+    #leftdiv.cardholder2{
+		display: block;
+		float: left;
+		width: auto;
+        height: 500px;
+		padding: 0.7em;
+		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		margin: inherit;
+		background-color: white;
+	}
+     #rightdiv.text2{
+	display: block;
+	float: left;
+	width: auto;
+    font-size:1.2em;
+    font-weight:400;
+    max-width:800px;
+	padding: 1em;
+	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	margin: inherit;
+	background-color: white;
+    min-height:900px;
+	overflow: hidden;
+
 
 
 
@@ -344,30 +378,6 @@ footer{
         top:-20px;
     }
 
-    /*HomePage*/
-        #leftdiv img {
-            width:430px;
-            height:400px;
-            position:relative;
-            margin:80px;
-            padding:1px;
-            overflow:auto;
-
-            
-        
-        }
-        #rightdiv p{
-            width:100%;
-            margin:0;
-            padding:0;
-            position:relative ;
-            float:none;
-        
-    }
-        #rightdiv p{
-            
-        }
-     
 
 }
 
