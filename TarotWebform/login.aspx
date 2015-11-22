@@ -18,17 +18,11 @@ value="WebForms" />
         <%--<asp:Button ID="Button_Login" runat="server" OnClick="Button1_Click();" Text="Login" Height="38px" style="margin-left: 84px" Width="90px" />--%>
         
     <%--Login console, with input--%>
-    <div id="login">
-    <p><b>LOGIN</b></p>
-           <p id="LOGIN"></p>
-                <p>
-                   Username: <input type="text"  id="TextBoxUsername2" name="Username" size="12" /><br />
-                   Password: <input type="password" id="TextBoxPassword2" name="Password" size="12" maxlength="8" /><br />
-                </p>
-              <p>
-             <input type="button" onclick="Button1_Click();" id="Button_login" value="Login"/>
-        </p>
-      <p>
-    </p>
-        </div>
+<%--    <div id="login">
+        <h2>LOGIN</h2>
+        <input type="text" id="TextBoxUsername2" name="Username" size="12" placeholder="Username"/>
+        <input type="password" id="TextBoxPassword2" name="Password" size="12" maxlength="8" placeholder="Password"/>
+        <input type="button" onclick="Button1_Click();" id="Button_login" value="Login"/>
+
+    </div>--%>
 </asp:Content>

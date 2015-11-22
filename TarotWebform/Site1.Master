@@ -1,14 +1,15 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TarotWebform.Site1" %>
-
+<%@ Register Src="~/UserControls/Login.ascx"  TagPrefix="Account" TagName="Login" %>
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Tarot</title>
+<%--    <meta name="viewport" content="width=device-width, initial-scale=1" />--%>
     <link href="CSS/Style.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/mediacodes.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'/>
-    <script src="jquery-2.1.4 (1).js"></script>
+    <script src="Jquery/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="validationcontact.js"></script>
     <script src="Js/login.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -16,50 +17,45 @@
 
 </head>
 <body>
-    <div id="wrapper">
-        <form id="form1" runat="server">
-       
-    <div id="logowrapper">
-        <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="180" />
-        <h1>
-            Welcome to <br/><span>The Tarot Website</span>
-        </h1>
-    </div>
-             <div id="navwrapper">
-        
-         <ul id="nav">
-            <li>
-                <a href="home.aspx">Home</a>
-            </li>
-            <li>
-                <a href="history.aspx">learn more</a>
-            </li>
-            <li>
-                <a href="cards.aspx">The Cards</a>
-            </li>
-            <li>
-                <a href="game.aspx">Play The Game</a>
-            </li>
-            <li>
-                <a href="contact.aspx">Contact</a>
-            </li>
-         </ul>
-     </div>
-
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="header">
+                <div id="logowrapper">
+                    <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="180" />
+                    <h1>
+                        Welcome to <br/><span>The Tarot Website</span>
+                    </h1>
+                    <Account:Login runat="server" />
+                </div>
+            </div>
+            <div id="navwrapper">
+                <ul id="nav">
+                    <li>
+                        <a href="home.aspx">Home</a>
+                    </li>
+                    <li>
+                        <a href="history.aspx">learn more</a>
+                    </li>
+                    <li>
+                        <a href="cards.aspx">The Cards</a>
+                    </li>
+                    <li>
+                        <a href="game.aspx">Play The Game</a>
+                    </li>
+                    <li>
+                        <a href="contact.aspx">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
         <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server">
        
         </asp:ContentPlaceHolder>
-
-    
-
-
-     
         <footer>
-        <a> &copy; <b>All rights reserved</b> 2015</a>
-    </footer>
-            </form>
-    </div>
- 
+            <a> &copy; <b>All rights reserved</b> 2015</a>
+        </footer>
+        
+        </div>
+     </form>
 </body>
 </html>

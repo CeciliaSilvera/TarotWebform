@@ -1,0 +1,197 @@
+﻿@media screen and (max-width: 800px){
+    #wrapper{
+        width:100%;
+        margin:1px;
+    }
+    #logowrapper h1{
+        min-width:400px;
+        overflow:hidden;
+        position:absolute;
+        left:250px;
+    }
+     #logowrapper img{
+       position:absolute;
+       left:15px;
+    }
+  
+    #nav a{
+        position:relative;
+        left: 0px;
+       
+        display: block;
+
+        padding-left:4px;
+        padding-right:4px;
+        padding-top:18px;
+        padding-bottom:18px;
+        font-size:smaller;
+        font-weight:600;
+
+
+    }
+ 
+    #nav{
+        min-width:800px;
+    }
+    footer{
+        position:relative;
+        left:37%;
+        overflow:hidden;
+    }
+    #contentwrapper{
+        margin:0;
+        padding:0;
+    }
+
+    /**cardpage*/
+    .cardholder{
+       height:1550px;
+       width:750px;
+       position:relative;
+       left:-10px;
+       top:-10px;     
+    }
+
+    .text{
+        margin:20px;
+        padding:0px;
+        position:relative;
+        top: -30px;
+        float:none;
+        width:85%;        
+    }
+
+    .card{
+        padding:0;
+        margin:0;
+        position:relative;
+        left:-20px;
+        float:none;
+        top:-20px;
+    }
+    /*HomePage*/
+    #leftdiv.cardholder2{
+		display: block;
+		float: left;
+		width: auto;
+        height: 500px;
+		padding: 0.7em;
+		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		margin: inherit;
+		background-color: white;
+	}
+     #rightdiv.text2{
+	display: block;
+	float: left;
+	width: auto;
+    font-size:1.2em;
+    font-weight:400;
+    max-width:800px;
+	padding: 1em;
+	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	margin: inherit;
+	background-color: white;
+    min-height:900px;
+	overflow: hidden;
+
+
+
+
+}
+
+@media screen and (max-width: 550px){
+     #wrapper{
+     width:100%;
+     margin: 0;
+     padding: 0;
+    }
+     
+     #nav {
+         min-width:0;
+
+     }
+    #nav a{
+        background-color: darkgray;
+        width: 100%;
+        display: block;
+        border-bottom:2px groove;
+        padding-top:5px;
+        padding-bottom:5px;
+        color:black;
+    }
+    #logowrapper{
+	padding-top: 1em;
+    background-color: white;
+	border-bottom: 3px solid;
+	border-top: 15px solid;
+    border-top-color: darkgrey;
+	height: 100px;
+    font-size:small;
+    font-stretch:extra-expanded;
+    
+}
+    #logowrapper img{
+        width: 25%;
+        height: 10%;
+        position:absolute;
+        left:3%;
+    }
+
+    #logowrapper h1{
+        position: relative;
+        left: 33%;
+        top:16%;
+        font-size:90%;
+        
+
+        
+    }
+    #nav li{
+        float: none;
+
+    }
+    footer{
+        position:relative;
+        left:37%;
+    }
+    /**cardspage*/
+        .cardholder{
+       height:2200px;
+       position:relative;
+       left:-20px;
+       top:75px;
+       max-width:500px;     
+    }
+
+    .text{
+        margin:0px;
+        padding:0px;
+        position:relative;
+        top: -30px; 
+        left:-10px;
+        width:375px; 
+        float:none;   
+    }
+     
+
+    .card{
+        padding:0;
+        margin:0;
+        position:relative;
+        left:-20px;
+        float:none;
+        top:-20px;
+    }
+
+
+}
+
+
+
+
+body {
+}

@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\mediacodes.css" />
     <Content Include="CSS\Style.css" />
     <Content Include="HomeEmpress.jpg" />
     <Content Include="imgcards\illuminati-aceofpentacles.jpg" />
@@ -78,7 +79,7 @@
     <Content Include="imgcards\illuminati-thefool.jpg" />
     <Content Include="imgcards\illuminati-theworld.jpg" />
     <Content Include="imgcards\tarot-illuminati-kit-edition-english-only.jpg" />
-    <Content Include="Jquery\jquery-2.1.4 %281%29.js" />
+    <Content Include="Jquery\jquery-2.1.4.js" />
     <Content Include="ImgCards\illuminati-aceofpentacles.jpg" />
     <Content Include="ImgCards\illuminati-death.jpg" />
     <Content Include="ImgCards\illuminati-fiveofwands.jpg" />
@@ -89,8 +90,8 @@
     <Content Include="ImgCards\illuminati-thefool.jpg" />
     <Content Include="ImgCards\illuminati-theworld.jpg" />
     <Content Include="ImgCards\tarot-illuminati-kit-edition-english-only.jpg" />
-    <Content Include="Jquery\jquery-2.1.4 %281%29.js" />
     <Content Include="Js\login.js" />
+    <Content Include="UserControls\Login.ascx" />
     <Content Include="validationcontact.js" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
@@ -177,10 +178,17 @@
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ImgCards\NewFolder1\" />
+    <Folder Include="imgcards\NewFolder1\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

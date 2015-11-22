@@ -172,11 +172,15 @@ including a content wrapper and left/right-div*******/
     
 }
 /**Login content**/
+#LoginForm {
+    display:none;
+}
 #login{
+    text-align:right;
     margin:15px;
     padding:20px;
-    border:double;
-    position:relative;
+    float:right;
+    width:300px;
 }
 /****Bottom content****/
 footer{
