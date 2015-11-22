@@ -178,11 +178,15 @@ including a content wrapper and left/right-div*******/
     width:auto;
 }
 /**Login content**/
+#LoginForm {
+    display:none;
+}
 #login{
+    text-align:right;
     margin:15px;
     padding:20px;
-    border:double;
-    display:block;
+    float:right;
+    width:300px;
 }
 /****Bottom content****/
 footer{
@@ -190,7 +194,7 @@ footer{
     
 	padding: 1em;
 	font-style: italic;
-
+    
     color:black;
     
 }
@@ -209,14 +213,14 @@ footer{
         width: 100%;
         margin: 1px;
     }
-
+  
     #logowrapper h1 {
         min-width: 400px;
         overflow: hidden;
         position: absolute;
         left: 250px;
     }
-
+       
     #logowrapper img {
         position: absolute;
         left: 15px;
@@ -245,7 +249,7 @@ footer{
         background-color:white;
         width:100%;
     }
-
+ 
     /**cardpage*/
 
     .card img{
@@ -262,44 +266,44 @@ footer{
     }
     /*HomePage*/
     #leftdiv.cardholder2 {
-        display: block;
-        float: left;
-        width: auto;
+		display: block;
+		float: left;
+		width: auto;
         min-height: 500px;
-        padding: 0.7em;
-        -webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-        -moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-        box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-        margin: inherit;
-        background-color: white;
-    }
+		padding: 0.7em;
+		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+		margin: inherit;
+		background-color: white;
+	}
 
     #rightdiv.text2 {
-        display: block;
-        float: left;
-        width: auto;
+	display: block;
+	float: left;
+	width: auto;
         font-size: 1.2em;
         font-weight: 400;
         max-width: 800px;
-        padding: 1em;
-        -webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-        -moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-        box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-        margin: inherit;
-        background-color: white;
+	padding: 1em;
+	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+	margin: inherit;
+	background-color: white;
         min-height: 900px;
-        overflow: hidden;
+	overflow: hidden;
     }
 }
 
     @media screen and (max-width: 550px) {
         #wrapper {
             width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        #nav {
+     margin: 0;
+     padding: 0;
+    }
+     
+     #nav {
             display: none;
             min-width: 0;
         }
@@ -326,8 +330,8 @@ footer{
             border:3px inset;
             width:44px;
             height:45px;
-        
-        }
+
+     }
 
         #nav a {
             border: outset;
@@ -339,7 +343,7 @@ footer{
             font-weight: 500;
             font-size: larger;
             text-shadow: 1px 4px 10px white;
-            width: 100%;
+        width: 100%;
             background: rgba(36,35,36,1);
             background: -moz-linear-gradient(top, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
             background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36,35,36,1)), color-stop(0%, rgba(184,184,184,1)), color-stop(32%, rgba(156,152,156,1)), color-stop(100%, rgba(98,85,98,1)));
@@ -348,36 +352,36 @@ footer{
             background: -ms-linear-gradient(top, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
             background: linear-gradient(to bottom, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242324', endColorstr='#625562', GradientType=0 );
-        }
+    }
 
         #logowrapper {
-            padding-top: 1em;
-            background-color: white;
-            border-bottom: 3px solid;
-            border-top: 15px solid;
-            border-top-color: darkgrey;
-            height: 100px;
+	padding-top: 1em;
+    background-color: white;
+	border-bottom: 3px solid;
+	border-top: 15px solid;
+    border-top-color: darkgrey;
+	height: 100px;
             font-size: small;
             font-stretch: extra-expanded;
         }
-
+    
             #logowrapper img {
-                width: 25%;
-                height: 10%;
+        width: 25%;
+        height: 10%;
                 position: absolute;
                 left: 3%;
-            }
+    }
 
             #logowrapper h1 {
-                position: relative;
-                left: 33%;
+        position: relative;
+        left: 33%;
                 top: 16%;
                 font-size: 90%;
             }
-
+        
         #nav li {
             float: none;
-        }
+    }
 
 
         /**cardspage*/
@@ -386,10 +390,10 @@ footer{
             max-width: 500px;
             min-height:0;
             margin:0;
-        }
+    }
         hr{
             display:none;
-        }
+    }
 
         .text {
             display:none;
@@ -397,11 +401,11 @@ footer{
             padding: 0px;
             float: none;
             min-width:150px;
-            position:relative;
+        position:relative;
             z-index:5;
        
     }
-      
+     
 
 
         .card {
