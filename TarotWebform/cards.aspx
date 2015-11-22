@@ -56,6 +56,7 @@
             </p>
         </div>
             </div>
+        <hr />
         <!--new card-->
         <div class="cardholder">
             <div class="card">
@@ -105,6 +106,7 @@
             </p>
             </div>
             </div>
+        <hr />
             <!--new card-->
             <div class="cardholder">
             <div class="card">
@@ -140,6 +142,7 @@
             </p>
         </div>
             </div>
+        <hr />
                     <!--new card-->
             <div class="cardholder">
             <div class="card">
@@ -179,6 +182,7 @@
             </p>
         </div>
             </div>
+        <hr />
                             <!--new card-->
             <div class="cardholder">
             <div class="card">
@@ -215,6 +219,7 @@
             
         </div>
             </div>
+        <hr />
                                     <!--new card-->
             <div class="cardholder">
             <div class="card">
@@ -242,7 +247,7 @@
             
         </div>
             </div>
-            
+            <hr />
         
                                             <!--new card-->
             <div class="cardholder">
@@ -284,7 +289,7 @@
             
         </div>
             </div>
-
+        <hr />
         
                                                     <!--new card-->
             <div class="cardholder">
@@ -326,7 +331,7 @@
             
         </div>
             </div>
-                
+                <hr />
                                                     <!--new card-->
             <div class="cardholder">
             <div class="card">

@@ -2,6 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
+  <add key="ValidationSettings:UnobtrusiveValidationMode" 
+value="WebForms" />
+    
   <div id="contentwrapper">
 
       
@@ -68,6 +71,7 @@
 
      
           </table>
+ 
 
       </div>
      

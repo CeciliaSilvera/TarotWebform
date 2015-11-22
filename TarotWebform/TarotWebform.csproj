@@ -91,6 +91,8 @@
     <Content Include="ImgCards\tarot-illuminati-kit-edition-english-only.jpg" />
     <Content Include="Jquery\jquery-2.1.4 %281%29.js" />
     <Content Include="Js\login.js" />
+    <Content Include="menu-icon.png" />
+    <Content Include="responsivemenu.js" />
     <Content Include="validationcontact.js" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
@@ -180,7 +182,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ImgCards\NewFolder1\" />
+    <Folder Include="imgcards\NewFolder1\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

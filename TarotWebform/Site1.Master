@@ -8,12 +8,14 @@
     <link href="CSS/Style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'/>
-    <script src="jquery-2.1.4 (1).js"></script>
+    <script src="Jquery/jquery-2.1.4 (1).js"></script>
     <script type="text/javascript" src="validationcontact.js"></script>
     <script src="Js/login.js"></script>
+    <script type="text/javascript" src="responsivemenu.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
+        
     </asp:ContentPlaceHolder>
-
+    
 </head>
 <body>
     <div id="wrapper">
@@ -21,11 +23,14 @@
        
     <div id="logowrapper">
         <img src="tarotlogo.jpg" alt="tarot logo" width="200" height="180" />
+        <asp:Button ID="menubutton" runat="server" Width="45" Height="45" Text="" />
+        <div id="buttonborder"></div>
         <h1>
             Welcome to <br/><span>The Tarot Website</span>
         </h1>
     </div>
              <div id="navwrapper">
+                 
         
          <ul id="nav">
             <li>
@@ -53,13 +58,16 @@
 
     
 
+                 
 
-     
-        <footer>
-        <a> &copy; <b>All rights reserved</b> 2015</a>
-    </footer>
+
             </form>
     </div>
+        <div id="footerdiv">
+             <footer>
+                <a> &copy; <b>All rights reserved</b> 2015</a>
+            </footer>
+        </div>
  
 </body>
 </html>

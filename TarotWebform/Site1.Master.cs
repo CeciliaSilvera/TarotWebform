@@ -13,5 +13,10 @@ namespace TarotWebform
         {
 
         }
+
+        protected void menubutton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

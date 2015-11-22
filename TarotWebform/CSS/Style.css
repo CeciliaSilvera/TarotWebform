@@ -6,10 +6,13 @@ body{
     font-family: 'Alegreya Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-#wrapper{
+#wrapper, #footerdiv{
     background-color:lightgrey;
-    margin:10px;
-    border:3px groove;
+    margin-left:10px;
+    margin-right:10px;
+    border-right:3px groove;
+    border-left:3px groove;
+
     min-height:850px;
 }
 /****End*****/
@@ -44,9 +47,12 @@ spantag in the html (h1), please change this comment if you decide to use it****
 /*******this section controls the navigation******/
 
 #navwrapper { /***this wrapper just makes it look like navbar is streched across the screen***/
-    height:52px;
+    min-height:52px;
     background-color: darkgray;	
     margin-top:0;
+}
+#menubutton{
+    display:none;
 }
 #nav a{
     font-family:'Raleway','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -87,9 +93,10 @@ including a content wrapper and left/right-div*******/
 #contentwrapper{
     
 	padding: 5em;
-	margin: 1em;
+	margin-left: 1em;
+    margin-right:1em;
     overflow:hidden;
-    min-width: 1800px;
+    max-width: 1800px;
 }
 
 	.leftdiv.cardholder2{
@@ -125,16 +132,14 @@ including a content wrapper and left/right-div*******/
 .text-holder{
     display: block;
 	float: left;
-	width: 607px;
-
-    max-width:inherit;
+	max-width: 607px;
 	padding: 0.7em;
 	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	margin: inherit;
 	background-color: white;
-    height:695px;
+    max-height:695px;
 	overflow: hidden;  
 
 	}
@@ -142,9 +147,9 @@ including a content wrapper and left/right-div*******/
 
 .cardholder{
     background-color:white;
-    width:1600px;
-    height:700px;
-    margin:15px;
+ 
+    min-height:700px;
+    margin-bottom:15px;
     padding:30px;
    
 }
@@ -155,231 +160,268 @@ including a content wrapper and left/right-div*******/
 }
 .card{
    float:left;
-   
+   margin: 10px;
     padding:1px;
     border:2px groove;
-    width: 302px;
+    max-width: 302px;
 
 }
 .text{
-    float: right;
-    max-width:1200px;
-    height: 500px;
-    position:relative;
-    left: -35px;
+
+
+    margin:10px;
     padding:15px;
     
     
+}
+.text p{
+    width:auto;
 }
 /**Login content**/
 #login{
     margin:15px;
     padding:20px;
     border:double;
-    position:relative;
+    display:block;
 }
 /****Bottom content****/
 footer{
-	clear: left;
-	padding: 0.5em;
+    text-align:center;
+    
+	padding: 1em;
 	font-style: italic;
-    position:relative;
-    left: 800px;
+
+    color:black;
     
 }
 /**Media query site1.Master**/
 
-@media screen and (max-width: 800px){
-    #wrapper{
-        width:100%;
-        margin:1px;
-    }
-    #logowrapper h1{
-        min-width:400px;
-        overflow:hidden;
-        position:absolute;
-        left:250px;
-    }
-     #logowrapper img{
-       position:absolute;
-       left:15px;
-    }
-  
-    #nav a{
-        position:relative;
-        left: 0px;
-       
-        display: block;
-
-        padding-left:4px;
-        padding-right:4px;
-        padding-top:18px;
-        padding-bottom:18px;
-        font-size:smaller;
-        font-weight:600;
-
-
-    }
- 
-    #nav{
-        min-width:800px;
+@media screen and (max-width: 800px) {
+    #footerdiv{
+        margin:0;
     }
     footer{
-        position:relative;
-        left:37%;
-        overflow:hidden;
+        position:static;
+        overflow: hidden;
+
     }
-    #contentwrapper{
-        margin:0;
-        padding:0;
+    #wrapper {
+        width: 100%;
+        margin: 1px;
+    }
+
+    #logowrapper h1 {
+        min-width: 400px;
+        overflow: hidden;
+        position: absolute;
+        left: 250px;
+    }
+
+    #logowrapper img {
+        position: absolute;
+        left: 15px;
+    }
+
+    #nav a {
+        position: relative;
+        left: 0px;
+        display: block;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: smaller;
+        font-weight: 600;
+    }
+
+    #nav {
+        min-width: 800px;
+    }
+
+
+    #contentwrapper {
+        margin: 0;
+        padding: 0;
+        background-color:white;
+        width:100%;
     }
 
     /**cardpage*/
-    .cardholder{
-       height:1550px;
-       width:750px;
-       position:relative;
-       left:-10px;
-       top:-10px;     
-    }
 
-    .text{
-        margin:20px;
-        padding:0px;
-        position:relative;
-        top: -30px;
-        float:none;
-        width:85%;        
+    .card img{
+        width:200px;
+        height:310px;
     }
+    .card {
+        padding: 0;
+        margin-right:20px;
 
-    .card{
-        padding:0;
-        margin:0;
-        position:relative;
-        left:-20px;
-        float:none;
-        top:-20px;
+        float:left;
+        top: -20px;
+        width:auto;
     }
     /*HomePage*/
-    #leftdiv.cardholder2{
-		display: block;
-		float: left;
-		width: auto;
-        height: 500px;
-		padding: 0.7em;
-		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-		box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-		margin: inherit;
-		background-color: white;
-	}
-     #rightdiv.text2{
-	display: block;
-	float: left;
-	width: auto;
-    font-size:1.2em;
-    font-weight:400;
-    max-width:800px;
-	padding: 1em;
-	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
-	margin: inherit;
-	background-color: white;
-    min-height:900px;
-	overflow: hidden;
-
-
-
-
-}
-
-@media screen and (max-width: 550px){
-     #wrapper{
-     width:100%;
-     margin: 0;
-     padding: 0;
-    }
-     
-     #nav {
-         min-width:0;
-
-     }
-    #nav a{
-        background-color: darkgray;
-        width: 100%;
+    #leftdiv.cardholder2 {
         display: block;
-        border-bottom:2px groove;
-        padding-top:5px;
-        padding-bottom:5px;
-        color:black;
+        float: left;
+        width: auto;
+        min-height: 500px;
+        padding: 0.7em;
+        -webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+        -moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+        box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+        margin: inherit;
+        background-color: white;
     }
-    #logowrapper{
-	padding-top: 1em;
-    background-color: white;
-	border-bottom: 3px solid;
-	border-top: 15px solid;
-    border-top-color: darkgrey;
-	height: 100px;
-    font-size:small;
-    font-stretch:extra-expanded;
-    
+
+    #rightdiv.text2 {
+        display: block;
+        float: left;
+        width: auto;
+        font-size: 1.2em;
+        font-weight: 400;
+        max-width: 800px;
+        padding: 1em;
+        -webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+        -moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+        box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
+        margin: inherit;
+        background-color: white;
+        min-height: 900px;
+        overflow: hidden;
+    }
 }
-    #logowrapper img{
-        width: 25%;
-        height: 10%;
-        position:absolute;
-        left:3%;
-    }
 
-    #logowrapper h1{
-        position: relative;
-        left: 33%;
-        top:16%;
-        font-size:90%;
+    @media screen and (max-width: 550px) {
+        #wrapper {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav {
+            display: none;
+            min-width: 0;
+        }
+
+        #menubutton {
+            display:block;
+            position:absolute;
+            top:24px;
+            right:7px;
+
+ 
+            background-image: url('../menu-icon.png');
+            background-repeat: no-repeat;
+            background-size: 45px 50px;
+            background-position: left;
+            border: none;
+            background-color: none;
+        }
+        #buttonborder{
+            display:none;
+            position:absolute;
+            top:21px;
+            right:4px;
+            border:3px inset;
+            width:44px;
+            height:45px;
         
+        }
 
-        
-    }
-    #nav li{
-        float: none;
+        #nav a {
+            border: outset;
+            border-color: black;
+            border-width: thin;
+            color: black;
+            padding-top: 23px;
+            padding-bottom: 23px;
+            font-weight: 500;
+            font-size: larger;
+            text-shadow: 1px 4px 10px white;
+            width: 100%;
+            background: rgba(36,35,36,1);
+            background: -moz-linear-gradient(top, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36,35,36,1)), color-stop(0%, rgba(184,184,184,1)), color-stop(32%, rgba(156,152,156,1)), color-stop(100%, rgba(98,85,98,1)));
+            background: -webkit-linear-gradient(top, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
+            background: -o-linear-gradient(top, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
+            background: -ms-linear-gradient(top, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
+            background: linear-gradient(to bottom, rgba(36,35,36,1) 0%, rgba(184,184,184,1) 0%, rgba(156,152,156,1) 32%, rgba(98,85,98,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242324', endColorstr='#625562', GradientType=0 );
+        }
 
-    }
-    footer{
-        position:relative;
-        left:37%;
-    }
-    /**cardspage*/
-        .cardholder{
-       height:2200px;
-       position:relative;
-       left:-20px;
-       top:75px;
-       max-width:500px;     
-    }
+        #logowrapper {
+            padding-top: 1em;
+            background-color: white;
+            border-bottom: 3px solid;
+            border-top: 15px solid;
+            border-top-color: darkgrey;
+            height: 100px;
+            font-size: small;
+            font-stretch: extra-expanded;
+        }
 
-    .text{
-        margin:0px;
-        padding:0px;
-        position:relative;
-        top: -30px; 
-        left:-10px;
-        width:375px; 
-        float:none;   
-    }
-     
+            #logowrapper img {
+                width: 25%;
+                height: 10%;
+                position: absolute;
+                left: 3%;
+            }
 
-    .card{
-        padding:0;
-        margin:0;
-        position:relative;
-        left:-20px;
-        float:none;
-        top:-20px;
-    }
+            #logowrapper h1 {
+                position: relative;
+                left: 33%;
+                top: 16%;
+                font-size: 90%;
+            }
+
+        #nav li {
+            float: none;
+        }
 
 
-}
+        /**cardspage*/
+        .cardholder {
+           padding:3px;
+            max-width: 500px;
+            min-height:0;
+            margin:0;
+        }
+        hr{
+            display:none;
+        }
+
+        .text {
+            display:none;
+            margin: 0px;
+            padding: 0px;
+            float: none;
+            min-width:150px;
+            position:relative;
+            z-index:5;
+       
+    }
+      
+
+
+        .card {
+            border:none;
+            margin: 0;
+            position: relative;
+            float: left;
+            top:0;
+            z-index:25;
+
+        }
+        .card img{
+            padding-right:5px;
+            width:100px;
+            height:170px;
+        }
+    }
+
+
+
 
 
 
